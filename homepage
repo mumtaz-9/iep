@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<!--ISlamic Education Program, makes islamic/arabic school more accessable 
+Hawraa AL Hasnawi, Edna Mohamad 
+-->
+<html>
+
+<head>
+    <title> Islamic Education program </title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="IslamicEducationProgram.css">
+</head>
+
+<body>
+    <div class ="A">
+        <div class="logotitle">
+            <button class="logo">
+                <img src="https://img.freepik.com/premium-vector/al-quran-logo-icon-vector_443394-231.jpg?w=2000"
+                    alt="quran" width="50" height="50">
+            </button>
+            <h1 class="iep">
+                IEP
+            </h1>
+         </div>
+         <div class = "about-frq">
+            <div class="about-us">
+                <button class="about-us-button">
+    
+                    About Us
+    
+                </button>
+            </div>
+    
+            <div class="frq">
+                <button class="frq-button">
+    
+                    FRQ Page
+    
+                </button>
+                
+            </div>
+    
+         </div>
+        
+    </div>
+
+    <div class="welcome">
+        <h2>Welcome</h2>
+        <h2>to</h2>
+        <h2>Islamic Education</h2>
+    </div>
+
+<div class = "login-create">
+ 
+        <button class="login-button">
+            login
+        </button>
+
+        <button class="create-button">
+                create account
+         </button>
+</div>
+    
+</body>
+
+</html>
+
+
+// the code below is css
+
+body{
+    background-color: rgb(207, 212, 137);
+}
+.welcome {
+    color: rgb(12, 213, 82);
+    text-align: center;
+    font-size: 35px;
+    font-family:'Courier New', Courier, monospace;
+}
+h1{
+.logo{
+position: absolute;
+   border: none;
+   height: 36px;
+} 
+}
+.A{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logotitle{
+    display:flex;
+    flex-wrap: nowrap;
+}
+.about-frq{
+    display:flex;
+    flex-wrap: nowrap;
+}
+
+.login-create{
+    display: flex;
+
+}
+.about-us-button{
+    float:right;
+    background-color: rgb(126, 211, 123);
+    text-align:center;
+    border:2px solid black;
+    height:50px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px gray;
+    cursor: pointer;
+}
+.about-us-button:hover{
+    background-color: gray;
+    color:white;
+}
+.frq-button{
+    float: right;
+    background-color: rgb(126, 211, 123);;
+    text-align:left;
+    border:2px solid black;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px gray;
+    cursor: pointer;
+}
+
+.frq-button:hover{
+    background-color: gray;
+    color:white;
+}
+
+.login-button{
+float:left;
+position: relative;
+left:45%;
+background-color:rgb(126, 211, 123);;
+text-align: left;
+border:2px solid black;
+height: 50px;
+border-radius: 10px;
+box-shadow: 10px 10px 10px gray;
+cursor: pointer;
+ } 
+
+ .login-button:hover{
+    background-color: gray;
+    color:white;
+}  
+.create-button{
+    float:left;
+    position: relative;
+    left:48%;
+    background-color: rgb(126, 211, 123);;
+    text-align: left;
+    border:2px soild black;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px gray;
+    cursor: pointer;
+}
+.create-button:hover{
+   background-color: gray;
+   color:white;
+}
